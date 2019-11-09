@@ -19,6 +19,10 @@ from latent_3d_points.neural_net import MODEL_SAVER_ID
 currentfolder = os.path.basename( os.getcwd() )
 print(currentfolder)
 
+###########################
+#  Note: 
+#     training the translator on a single-GPU machine is much faster than training it on one GPU of a multi-GPU machine.
+###########################
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--gpu', default='0')
@@ -51,10 +55,6 @@ class_name_A = FLAGS.class_name_A
 class_name_B = FLAGS.class_name_B
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = FLAGS.gpu
-
-#########
-#  Tip: training the translator on a single-GPU machine is much faster than training it on one GPU of a multi-GPU machine.
-#######
 
 # setup output folders
 top_in_dir = 'data/'
