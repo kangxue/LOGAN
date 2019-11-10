@@ -6,6 +6,7 @@ We introduce LOGAN, a deep neural network aimed at learning general-purpose shap
  
 ![teaser](figure/teaser.jpg)
 
+
 ### Prerequisites
 
 - Linux (tested under Ubuntu 16.04 )
@@ -43,6 +44,10 @@ Upsampling:
 Hmm.. I haven't got enough time to put this into the release version of the code. I will work on it as soon as I get time. 
 ```
 Please note that all the quantitative evaluation results we provided in the paper were done with point clouds of size 2048, i.e., before upsampling.
+
+### Illustration of network architecture
+See Figure 1. in our <a href="https://kangxue.org/papers/logan_supp.pdf">supplementary material</a>.
+
 
 ### Citation
 If you find our work useful in your research, please consider citing:
