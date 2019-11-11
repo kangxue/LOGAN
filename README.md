@@ -54,7 +54,7 @@ If you find our work useful in your research, please consider citing:
 
     @article {yin2019logan,
         author = {Kangxue Yin and Zhiqin Chen and Hui Huang and Daniel Cohen-Or and Hao Zhang}
-        title = { LOGAN: Unpaired Shape Transform in Latent Overcomplete Space}
+        title = {LOGAN: Unpaired Shape Transform in Latent Overcomplete Space}
         journal = {ACM Transactions on Graphics(Special Issue of SIGGRAPH Asia)}
         volume = {38}
         number = {6}
