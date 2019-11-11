@@ -1,9 +1,11 @@
 
 ### <a href="https://kangxue.org/logan.html"> LOGAN: *Unpaired Shape Transform in Latent Overcomplete Space*</a>
-<a href="http://kangxue.org">Kangxue Yin</a>, <a href="https://czq142857.github.io/">Zhiqin Chen</a>, <a href="http://vcc.szu.edu.cn/~huihuang/">Hui Huang</a>, <a href="http://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>, <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>.
 
-We introduce LOGAN, a deep neural network aimed at learning general-purpose shape transforms from unpaired domains. The network is trained on two sets of shapes, e.g., tables and chairs, while there is neither a pairing between shapes from the domains as supervision nor any point-wise correspondence between any shapes. Once trained, LOGAN takes a shape from one domain and transforms it into the other. Our network consists of an autoencoder to encode shapes from the two input domains into a common latent space, where the latent codes concatenate multi-scale shape features, resulting in an overcomplete representation. The translator is based on a generative adversarial network (GAN), operating in the latent space, where an adversarial loss enforces cross-domain translation while a feature preservation loss ensures that the right shape features are preserved for a natural shape transform...[<a href="https://arxiv.org/pdf/1903.10170.pdf">more in the paper</a>].
- 
+<a href="http://kangxue.org">Kangxue Yin</a>, <a href="https://czq142857.github.io/">Zhiqin Chen</a>, <a href="http://vcc.szu.edu.cn/~huihuang/">Hui Huang</a>, <a href="http://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>, <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>. <br/>
+
+[<a href="https://arxiv.org/pdf/1903.10170.pdf">Paper</a>] [<a href="https://kangxue.org/papers/logan_supp.pdf">Supplementary material</a>]
+
+
 ![teaser](figure/teaser.jpg)
 
 
@@ -45,9 +47,6 @@ Hmm.. I haven't got enough time to put this into the release version of the code
 ```
 Please note that all the quantitative evaluation results we provided in the paper were done with point clouds of size 2048, i.e., before upsampling.
 
-
-### Supplementary material
-Download it <a href="https://kangxue.org/papers/logan_supp.pdf">HERE</a>.
 
 ### Citation
 If you find our work useful in your research, please consider citing:
