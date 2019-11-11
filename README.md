@@ -45,9 +45,9 @@ Hmm.. I haven't got enough time to put this into the release version of the code
 ```
 Please note that all the quantitative evaluation results we provided in the paper were done with point clouds of size 2048, i.e., before upsampling.
 
-### Illustration of network architecture
-See Figure 1. in our <a href="https://kangxue.org/papers/logan_supp.pdf">supplementary material</a>.
 
+### Supplementary material
+Download it <a href="https://kangxue.org/papers/logan_supp.pdf">HERE</a>.
 
 ### Citation
 If you find our work useful in your research, please consider citing:
