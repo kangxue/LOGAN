@@ -23,7 +23,7 @@ The code is built on the top of
 
 ### Dataset
 
-- Download the dataset <a href="https://www.dropbox.com/s/t7jqdvbiqf0t2um/logan_data.zip?dl=1">HERE</a>.
+- Download the dataset <a href="https://drive.google.com/uc?id=1I0-3UfV7PP5DhTcPvI3BNQv9P1VIhmMF&export=download">HERE</a>.
 - If you are in China, you can choose to download it from <a href="https://share.weiyun.com/5WbWcaw"> HERE</a>.
 
 
