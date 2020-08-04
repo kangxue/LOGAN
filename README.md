@@ -43,7 +43,7 @@ python -u run_translator.py  --mode=test   --class_name_A=chair    --class_name_
 
 Upsampling:
 ```
-Hmm.. I haven't got enough time to put this into the release version of the code. I will work on it as soon as I get time. 
+Hmm.. I haven't put this into the release version of the code. I will work on it as soon as I get time. 
 ```
 Please note that all the quantitative evaluation results we provided in the paper were done with point clouds of size 2048, i.e., before upsampling.
 
