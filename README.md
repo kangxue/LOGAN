@@ -1,5 +1,5 @@
 
-### <a href="https://kangxue.org/logan.html"> LOGAN: *Unpaired Shape Transform in Latent Overcomplete Space*</a>
+### <a href="https://kangxue.org/LOGAN/"> LOGAN: *Unpaired Shape Transform in Latent Overcomplete Space*</a>
 
 <a href="http://kangxue.org">Kangxue Yin</a>, <a href="https://czq142857.github.io/">Zhiqin Chen</a>, <a href="http://vcc.szu.edu.cn/~huihuang/">Hui Huang</a>, <a href="http://www.cs.tau.ac.il/~dcor/">Daniel Cohen-Or</a>, <a href="https://www.cs.sfu.ca/~haoz/">Hao Zhang</a>. <br/>
 
